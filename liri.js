@@ -32,20 +32,20 @@ function myTweets() {
 	})
 }
 
-function spotifyThis() {
-	spotify.search({type: 'type', query: arg2}, (err, data) => {
-		if (!err) {
-			console.log(data) 
-		}
-	})
-}
+//function spotifyThis() {
+//	spotify.search({type: 'type', query: arg2}, (err, data) => {
+//		if (!err) {
+//			console.log(data) 
+//		}
+//	})
+//}
 
 switch (arg1) {
 	case 'my-tweets':
 		myTweets();
 		break;
 	case 'spotify-this-song':
-		spotifyThis()
+		//spotifyThis()
 		console.log("spotify");
 		break;
 	case 'movie-this':
